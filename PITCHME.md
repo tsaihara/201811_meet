@@ -4,7 +4,7 @@
 　  
 　  
 　  
-　　　　T.Saihara
+T.Saihara
 ---
 このスライドの作成に、  
 「GitPitch」というサービスを使っています。
