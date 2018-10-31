@@ -5,6 +5,8 @@
 　  
 T.Saihara
 ---
+### はじめに
+---
 このスライドは  
 GitPitch というサービスを使っています
 
@@ -34,21 +36,27 @@ WebであればJavaやJavascript,Node.jsなど、iOSやAndroidのスマホアプ
 その他.Net系C#,VB.Netなど色々やります。  
 相原さんにご紹介頂いて、今年の4月からパートナーとしてお世話になっております。
 ---
-仕事とか
----
-ここは  
-　  
-### 強調表示  
-
-でなにか指定します  
-　  
-Count ・・
----
-CrossPlatform Moble App
+### CrossPlatform Moble App
 
 Note:
 
 今回は、私が気になっているスマホアプリのClossPlatform開発環境をご紹介します。
+---
+@transition[none]
+
+@snap[east]
+### Agenda
+- CrossPlatformの種類(前置き)
+- 特徴
+- HelloWorld
+- それぞれの見た目と動作
+- 私的な推しPOINT
+- まとめ・感想
+@snapend
+
+Note:
+
+Agendaはこんな形で、さくっと進めていきます。  
 ---
 ### CrossPlatformの種類？
 ---
@@ -75,7 +83,11 @@ WebアプリやPWAの動作に寄与するものとして挙げます。
 
 Note:
 
-今回目をつけましたのは、And more に当たる...
+ReactNative Javascriptを使うものです。  
+Xamarinは、Microsoft主導で、C#を使います。  
+Cordova これはもともとPhoneGapと言われていたものですね。これもJavascriptです。Webviewベースなので、上記2つとは若干UI/UXが変わる感じになります。
+その他にも、ゲームであれば Unity であるとか、Cocos2d-xなどありますが、  
+今回目をつけましたのは、...
 ---
 
 ## Flutter
@@ -86,6 +98,7 @@ Flutter というものです。
 
 ---
 ### どんな特徴？
+---
 - Google製 |
 - オープンソース |
 - Dart 言語 |
@@ -98,6 +111,37 @@ Google製の
 オープンソースなフレームワーク,SDKです。  
 Dartという言語で開発します。前述のXamarinやReactNativeと違い、独自言語なので若干学習コストが高いかもしれません。  
 対応プラットフォームは、iOS,Androidは勿論のこと、の次期OSとも噂されるFuchciaにも対応してます。  
+
+---
+### Hello world
+@snap[east]
+```java
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Welcome to Flutter',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Welcome to Flutter'),
+        ),
+        body: Center(
+          child: Text('Hello World'),
+        ),
+      ),
+    );
+  }
+}
+```
+@snapend  
+  
+@snap[west]  
+<img src="assets/flutter_hello.png" width="320">
+@snapend
+  
+Note:
+
+完全に抜粋ですが、こんな感じになります。  
 
 ---
 ### 見た目と動作
@@ -117,6 +161,10 @@ Note:
 @divend
 ---
 ### 私的な推しPOINT  
+
+Note:
+
+---
 IDE(Android Studio,IntelliJ,VSCode)  
 Hot reload  
 
@@ -125,29 +173,21 @@ Note:
 IDEのプラグインがいい感じでした。AndroidStudioで使ってみましたが、
 (当たり前ですが)Androidアプリ開発と同じように作業可能で、iOSシミュレーターへのアタッチも
 違和感なく行けました。
+
 ---
 ### Hot reload  
 <img src="assets/flutter_hotreload.gif" width="640">
+
+Note:
+
+HotReloadを実際にやってみた感じです。  
+リストアイテムの右側に配置されているアイコンを変更して、色を変えるくらいの簡単なものですが、
+保存後数秒も待たずシミュレーターの方に反映されています。  
+コード書きながら、画面配置確認しながらがかなりラクラクできそうです。
 ---
-### Hello world
-```java
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Welcome to Flutter',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Welcome to Flutter'),
-        ),
-        body: Center(
-          child: Text('Hello World'),
-        ),
-      ),
-    );
-  }
-}
-```
+### まとめ・感想
+---
+
 ---
 Official  
 https://flutter.io/  
