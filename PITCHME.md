@@ -45,7 +45,7 @@ Note:
 @transition[none]
 
 ### Agenda
-@snap[east]
+@snap[west]
 - CrossPlatformの種類(前置き)  
 - 特徴  
 - HelloWorld  
@@ -99,7 +99,7 @@ Flutter というものです。
 ---
 ### どんな特徴？
 ---
-- Google製 |
+- Google製  
 - オープンソース |
 - Dart 言語 |
 - Android, iOS Fuchcia |
@@ -133,9 +133,9 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-@snap[west]  
+@div[right-30]
 <img src="assets/flutter_hello.png" width="320">
-@snapend
+@divend
   
 Note:
 
