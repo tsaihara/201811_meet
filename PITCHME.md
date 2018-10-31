@@ -65,7 +65,7 @@ Agendaはこんな形で、さくっと進めていきます。
 ---
 ### CrossPlatformの種類？
 ---
-### Web
+#### Web
 - Webアプリ |
 - PWA |
 - AMP |
@@ -80,7 +80,7 @@ iOSも11.3から対応したようですね。
 AMP(Accelerated Mobile Pages)は、Webページを高速化するものでアプリとは少し括りが違いますが、
 WebアプリやPWAの動作に寄与するものとして挙げます。
 ---
-### ハイブリッドアプリ
+#### ハイブリッドアプリ
 - React Native |
 - Xamarin |
 - Cordova |
@@ -139,7 +139,7 @@ class MyApp extends StatelessWidget {
 ```
 
 @snap[east]
-<img src="assets/flutter_hello.png" width="320">
+<img src="assets/flutter_hello.png" width="240">
 @snapend
   
 Note:
