@@ -34,6 +34,8 @@ Note:
 役割としては、エンジニアとしてやらせて頂いており、
 WebであればJavaやJavascript,Node.jsなど、iOSやAndroidのスマホアプリをネイティブで、  
 その他.Net系C#,VB.Netなど色々やります。  
+  
+  
 相原さんにご紹介頂いて、今年の4月からパートナーとしてお世話になっております。
 ---
 ### CrossPlatform Moble App
@@ -45,9 +47,9 @@ Note:
 @transition[none]
 
 @snap[north]
-### Agenda
+Agenda
 @snapend
-
+  
 @snap[west]
 - CrossPlatformの種類(前置き)  
 - 特徴  
@@ -136,9 +138,9 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-@div[right-30]
+@snap[east]
 <img src="assets/flutter_hello.png" width="320">
-@divend
+@snapend
   
 Note:
 
