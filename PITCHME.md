@@ -44,14 +44,14 @@ Note:
 ---
 @transition[none]
 
-@snap[east]
 ### Agenda
-- CrossPlatformの種類(前置き)
-- 特徴
-- HelloWorld
-- それぞれの見た目と動作
-- 私的な推しPOINT
-- まとめ・感想
+@snap[east]
+- CrossPlatformの種類(前置き)  
+- 特徴  
+- HelloWorld  
+- それぞれの見た目と動作  
+- 私的な推しPOINT  
+- まとめ・感想  
 @snapend
 
 Note:
@@ -114,7 +114,6 @@ Dartという言語で開発します。前述のXamarinやReactNativeと違い�
 
 ---
 ### Hello world
-@snap[east]
 ```java
 class MyApp extends StatelessWidget {
   @override
@@ -133,8 +132,7 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
-@snapend  
-  
+
 @snap[west]  
 <img src="assets/flutter_hello.png" width="320">
 @snapend
