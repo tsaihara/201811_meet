@@ -44,7 +44,10 @@ Note:
 ---
 @transition[none]
 
+@snap[north]
 ### Agenda
+@snapend
+
 @snap[west]
 - CrossPlatformの種類(前置き)  
 - 特徴  
