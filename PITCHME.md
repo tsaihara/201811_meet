@@ -52,11 +52,12 @@ Agenda
   
 @snap[west]
 - CrossPlatformの種類(前置き)  
-- 特徴  
-- HelloWorld  
-- それぞれの見た目と動作  
-- 私的な推しPOINT  
-- まとめ・感想  
+- 紹介Solution
+  - 特徴  
+  - HelloWorld  
+  - それぞれの見た目と動作  
+  - 私的な推しPOINT  
+  - まとめ・感想  
 @snapend
 
 Note:
