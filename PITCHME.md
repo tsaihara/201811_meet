@@ -1,4 +1,4 @@
-### 2018.11 testtest
+### 2018.11 オフサイトミーティング
 　  
 　  
 　  
@@ -22,7 +22,7 @@ Note:
 
 ほぼはじめましての方が6,7割かと思いますので、軽く自己紹介させてください。
 ---
-- 名前 : XXXX
+- 名前 : Saihara
 - 役割 : エンジニア(Web, Frontend, Swift,Objective-C/iOS, Java/Android ほか)
 
 
@@ -30,7 +30,7 @@ Note:
 
 Note:
 
-名前は、XXXXXと申します。  
+名前は、と申します。  
 役割としては、エンジニアとしてやらせて頂いており、
 WebであればJavaやJavascript,Node.jsなど、iOSやAndroidのスマホアプリをネイティブで、  
 その他.Net系C#,VB.Netなど色々やります。  
@@ -62,7 +62,7 @@ Agenda
 
 Note:
 
-Agendaはこんな形で、さくっと進めていきます。  
+Agendaはこんな形で、進めていきます。  
 ---
 ### CrossPlatformの種類？
 ---
@@ -161,7 +161,7 @@ Note:
 
 @div[right-50]
 <br>
-<img src="assets/flutter_ios.gif" width="320">
+<img src="assets/flutter_ios.gif" width="300">
 @divend
 ---
 ### 私的な推しPOINT  
@@ -193,9 +193,10 @@ HotReloadを実際にやってみた感じです。
 ---
 
 ---
+#### Flutter  
 Official  
 https://flutter.io/  
 Tutorial  
 https://flutter.io/tutorials/
 ---
-Fin
+### Fin
