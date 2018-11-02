@@ -97,13 +97,12 @@ Cordova これはもともとPhoneGapと言われていたものですね。こ�
 その他にも、ゲームであれば Unity であるとか、Cocos2d-xなどありますが、  
 今回目をつけましたのは、...
 ---
-@snap[midpoint]
-<img src="assets/logo_lockup_flutter_horizontal_wht.png">
-@snapend
+<img src="assets/logo_lockup_flutter_horizontal_wht.png" width="720">
 
 @snap[south]
-“Flutter identity assets” by The Chromium Authors is licensed under [http://creativecommons.org/licenses/by-sa/4.0/](CC BY 4.0)
+@size[0.1em](“Flutter identity assets” by The Chromium Authors is licensed under [http://creativecommons.org/licenses/by-sa/4.0/])
 @snapend
+
 Note:
 
 Flutter というものです。
