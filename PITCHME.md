@@ -23,9 +23,9 @@ Note:
 ほぼはじめましての方が6,7割かと思いますので、軽く自己紹介させてください。
 ---
 - 名前 : Saihara
-- 役割 : エンジニア(Web, Frontend, Swift,Objective-C/iOS, Java/Android ほか)
-
-
+- 役割 : エンジニア(Java,Javascript,Nodejs/Web(Frontend), Swift,Objective-C/iOS, Java/Android ほか)
+  
+  
 相原さんのご紹介により 2018.04よりお世話になっております
 
 Note:
@@ -52,7 +52,7 @@ Agenda
   
 @snap[west]
 - CrossPlatformの種類(前置き)  
-- 紹介Solution
+- 紹介ソリューション
   - 特徴  
   - HelloWorld  
   - それぞれの見た目と動作  
@@ -64,7 +64,7 @@ Note:
 
 Agendaはこんな形で、進めていきます。  
 ---
-### CrossPlatformの種類？
+### CrossPlatformの種類
 ---
 #### Web
 - Webアプリ |
@@ -88,6 +88,8 @@ WebアプリやPWAの動作に寄与するものとして挙げます。
 - And more... |
 
 Note:
+
+OSネイティブで動作するもの、ハイブリッドアプリともいいます。　　
 
 ReactNative Javascriptを使うものです。  
 Xamarinは、Microsoft主導で、C#を使います。  
@@ -152,8 +154,26 @@ Note:
 
 Note:
 
-サンプル
+実際の見た目はどうでしょう。
 ---
+#### Android
+<br>
+<img src="assets/flutter_android.gif" width="320">
+
+Note:
+
+Androidはこんな感じです。一般的なAndroidアプリらしいと思います。
+---
+#### iOS
+<br>
+<img src="assets/flutter_ios.gif" width="300">
+
+Note:
+
+iOSです。これも一般的なiOSアプリらしい見た目と思います。
+
+---
+#### 並べるとこんな感じ
 @div[left-50]
 <br>
 <img src="assets/flutter_android.gif" width="320">
@@ -163,6 +183,44 @@ Note:
 <br>
 <img src="assets/flutter_ios.gif" width="300">
 @divend
+
+Note:
+
+並べると、機能的には同じですがそれぞれ各OSっぽい感じになっている事が見えます。　　
+例えば、画面遷移後、左上 戻るアローの形は違いますね。
+後、スクロールエンドまで引っ張った時のエフェクトも、iOSではバウンスしてますがAndroidでは波が出ます。  
+画像では分かりづらいですが、画面戻る操作で、iOSではスワイプで戻れますがAndroidでは戻れません。  
+これは画面遷移に戻るキーを使う前提だからですね。
+---
+#### コード
+```java
+  Widget build(BuildContext context) {
+    return new Scaffold(
+      appBar: new AppBar(
+        title: const Text('Startup Name Generator'),
+        actions: <Widget>[
+          new IconButton(icon: const Icon(Icons.list), onPressed: _pushSaved),
+        ],
+      ),
+      body: _buildSuggestions(),
+    );
+  }
+
+  Widget _buildSuggestions() {
+    return new ListView.builder(
+        padding: const EdgeInsets.all(16.0),
+        itemBuilder: (BuildContext _context, int i) {
+          if (i.isOdd) {
+            return const Divider();
+          }
+          final int index = i ~/ 2;
+          if (index >= _suggestions.length) {
+            _suggestions.addAll(generateWordPairs().take(10));
+          }
+          return _buildRow(_suggestions[index]);
+        });
+  }
+```
 ---
 ### 私的な推しPOINT  
 
