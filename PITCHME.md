@@ -29,9 +29,9 @@ Note:
 - 役割 : エンジニア(Java,Javascript,Node\.js/Web(Frontend), Swift,Objective-C/iOS, Java/Android ほか)
   
   
-@div[left-20]
+<div align="left">
 @size[0.7em](相原さんのご紹介により   2018.04よりお世話になっております)
-@divend
+</div>
 
 Note:
 
