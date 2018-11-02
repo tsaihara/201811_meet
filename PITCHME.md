@@ -26,7 +26,7 @@ Note:
 - 役割 : エンジニア(Java,Javascript,Nodejs/Web(Frontend), Swift,Objective-C/iOS, Java/Android ほか)
   
   
-相原さんのご紹介により 2018.04よりお世話になっております
+@size[0.5em](相原さんのご紹介により   2018.04よりお世話になっております)
 
 Note:
 
@@ -52,7 +52,7 @@ Agenda
   
 @snap[west]
 - CrossPlatformの種類(前置き)  
-- 紹介ソリューション
+- 紹介ソリューション  
   - 特徴  
   - HelloWorld  
   - それぞれの見た目と動作  
@@ -107,6 +107,8 @@ Flutter というものです。
 ---
 ### どんな特徴？
 ---
+@transition[none]
+
 - Google製  
 - オープンソース |
 - Dart 言語 |
@@ -157,7 +159,6 @@ Note:
 実際の見た目はどうでしょう。
 ---
 #### Android
-<br>
 <img src="assets/flutter_android.gif" width="320">
 
 Note:
@@ -165,7 +166,6 @@ Note:
 Androidはこんな感じです。一般的なAndroidアプリらしいと思います。
 ---
 #### iOS
-<br>
 <img src="assets/flutter_ios.gif" width="300">
 
 Note:
@@ -175,12 +175,10 @@ iOSです。これも一般的なiOSアプリらしい見た目と思います�
 ---
 #### 並べるとこんな感じ
 @div[left-50]
-<br>
 <img src="assets/flutter_android.gif" width="320">
 @divend
 
 @div[right-50]
-<br>
 <img src="assets/flutter_ios.gif" width="300">
 @divend
 
@@ -227,6 +225,8 @@ Note:
 Note:
 
 ---
+@transition[none]
+
 IDE(Android Studio,IntelliJ,VSCode)  
 Hot reload  
 
