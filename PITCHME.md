@@ -16,6 +16,12 @@ Note:
 GitHubに置いたMarkdownからスライドショーを作ってくれる、GitPitch
 というサービスを使っています。
 
++++
+#### GitPitch 少し紹介
+Markdownとある程度の設定で作成可能  
+HTMLも使えます
+  
+https://gitpitch.com/docs/about/  
 ---
 自己紹介
 
@@ -28,6 +34,7 @@ Note:
   
   
 <div align="left">
+<br>
 @size[0.7em](相原さんのご紹介により   2018.04よりお世話になっております)
 </div>
 
