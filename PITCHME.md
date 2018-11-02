@@ -15,6 +15,9 @@ Note:
 これはMarkdownでメモってたら資料におとすのがめんどくさかったので
 GitHubに置いたMarkdownからスライドショーを作ってくれる、GitPitch
 というサービスを使っています。
+
++++  
+
 ---
 自己紹介
 
@@ -23,10 +26,12 @@ Note:
 ほぼはじめましての方が6,7割かと思いますので、軽く自己紹介させてください。
 ---
 - 名前 : Saihara
-- 役割 : エンジニア(Java,Javascript,Nodejs/Web(Frontend), Swift,Objective-C/iOS, Java/Android ほか)
+- 役割 : エンジニア(Java,Javascript,Node\.js/Web(Frontend), Swift,Objective-C/iOS, Java/Android ほか)
   
   
-@size[0.5em](相原さんのご紹介により   2018.04よりお世話になっております)
+@div[left]
+@size[0.7em](相原さんのご紹介により   2018.04よりお世話になっております)
+@divend
 
 Note:
 
@@ -97,10 +102,10 @@ Cordova これはもともとPhoneGapと言われていたものですね。こ�
 その他にも、ゲームであれば Unity であるとか、Cocos2d-xなどありますが、  
 今回目をつけましたのは、...
 ---
-<img src="assets/logo_lockup_flutter_horizontal_wht.png" width="720">
+<img src="assets/logo_lockup_flutter_horizontal_wht.png" width="640">
 
 @snap[south]
-@size[0.1em](“Flutter identity assets” by The Chromium Authors is licensed under [http://creativecommons.org/licenses/by-sa/4.0/])
+@size[0.1em](“Flutter identity assets” by The Chromium Authors is licensed under <a href='http://creativecommons.org/licenses/by-sa/4.0/'>CC BY 4.0</a>)
 @snapend
 
 Note:
@@ -231,6 +236,7 @@ Note:
 @transition[none]
 
 IDE(Android Studio,IntelliJ,VSCode)  
+  
 Hot reload  
 
 Note:
