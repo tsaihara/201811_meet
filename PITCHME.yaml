@@ -18,7 +18,7 @@ footnote :  "2018.11 offsite"
 highlight : mono-blue
 
 #Mouse Wheel Setting
-mousewheel : true
+mousewheel : false
 
 #Transition Setting(遷移時のアクション。convex, concave, default, fade, none, slide, zoom が設定可)
 transition : fade
