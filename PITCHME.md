@@ -29,7 +29,7 @@ Note:
 
 ほぼはじめましての方が6,7割かと思いますので、軽く自己紹介させてください。
 ---
-- 名前 : Saihara
+- 名前 : 才原 健
 - 役割 : エンジニア(Java,Javascript,Node\.js/Web(Frontend), Swift,Objective-C/iOS, Java/Android ほか)
   
   
